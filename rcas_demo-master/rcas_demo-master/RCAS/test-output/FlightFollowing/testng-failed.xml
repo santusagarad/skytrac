@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [FlightFollowing]" parallel="classes">
+  <test thread-count="1" name="PollingTest(failed)" parallel="classes">
+    <classes>
+      <class name="FlightFollowing.Polling">
+        <methods>
+          <include name="getResult"/>
+          <include name="VerifyLogOut"/>
+          <include name="setup"/>
+          <include name="ToolsMenu"/>
+          <include name="Browser"/>
+        </methods>
+      </class> <!-- FlightFollowing.Polling -->
+    </classes>
+  </test> <!-- PollingTest(failed) -->
+  <test thread-count="1" name="CurrentpagechecksTest(failed)" parallel="classes">
+    <classes>
+      <class name="FlightFollowing.CurrentPageChecks">
+        <methods>
+          <include name="getResult"/>
+          <include name="VerifyLogOut"/>
+          <include name="VerifyLinks"/>
+          <include name="setup"/>
+          <include name="NavigationPage"/>
+          <include name="Browser"/>
+        </methods>
+      </class> <!-- FlightFollowing.CurrentPageChecks -->
+    </classes>
+  </test> <!-- CurrentpagechecksTest(failed) -->
+  <test thread-count="1" name="UnitVisibiltyTest(failed)" parallel="classes">
+    <classes>
+      <class name="FlightFollowing.UnitVisibility">
+        <methods>
+          <include name="getResult"/>
+          <include name="VerifyLogOut"/>
+          <include name="VerifyShowHidden"/>
+          <include name="setup"/>
+          <include name="VerifyShowAllNone"/>
+          <include name="ShowSelected"/>
+          <include name="UnitvisibilitySanity"/>
+          <include name="Browser"/>
+        </methods>
+      </class> <!-- FlightFollowing.UnitVisibility -->
+    </classes>
+  </test> <!-- UnitVisibiltyTest(failed) -->
+  <test thread-count="1" name="testngTest(failed)" parallel="classes">
+    <classes>
+      <class name="FlightFollowing.Polling">
+        <methods>
+          <include name="getResult"/>
+          <include name="VerifyLogOut"/>
+          <include name="setup"/>
+          <include name="ToolsMenu"/>
+          <include name="Browser"/>
+        </methods>
+      </class> <!-- FlightFollowing.Polling -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [FlightFollowing] -->

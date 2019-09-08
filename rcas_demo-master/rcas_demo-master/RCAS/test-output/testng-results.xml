@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69590" started-at="2019-09-04T11:59:39Z" finished-at="2019-09-04T12:00:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="69590" started-at="2019-09-04T11:59:39Z" finished-at="2019-09-04T12:00:48Z">
+      <class name="FlightFollowing.Polling">
+        <test-method status="PASS" signature="Browser()[pri:0, instance:FlightFollowing.Polling@57baeedf]" name="Browser" is-config="true" duration-ms="3334" started-at="2019-09-04T11:59:39Z" finished-at="2019-09-04T11:59:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:FlightFollowing.Polling@57baeedf]" name="setup" is-config="true" duration-ms="70" started-at="2019-09-04T11:59:42Z" finished-at="2019-09-04T11:59:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:1, instance:FlightFollowing.Polling@57baeedf]" name="verifyHomepageTitle" duration-ms="13792" started-at="2019-09-04T11:59:42Z" finished-at="2019-09-04T11:59:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FlightFollowing.Polling@57baeedf]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-04T11:59:56Z" finished-at="2019-09-04T11:59:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomepageTitle status=SUCCESS method=BaseClass.verifyHomepageTitle()[pri:1, instance:FlightFollowing.Polling@57baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="ToolsMenu()[pri:1, instance:FlightFollowing.Polling@57baeedf]" name="ToolsMenu" duration-ms="15057" started-at="2019-09-04T11:59:56Z" finished-at="2019-09-04T12:00:11Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: /html/body/form/div[4]/div[6]/ul/li[4]/a/span
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'
+System info: host: 'RCAS002', ip: '192.168.20.10', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11164, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cde1d29a-a2fb-4e32-897f-0bf9f42781b2
+*** Element info: {Using=xpath, value=/html/body/form/div[4]/div[6]/ul/li[4]/a/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/form/div[4]/div[6]/ul/li[4]/a/span
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'
+System info: host: 'RCAS002', ip: '192.168.20.10', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11164, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cde1d29a-a2fb-4e32-897f-0bf9f42781b2
+*** Element info: {Using=xpath, value=/html/body/form/div[4]/div[6]/ul/li[4]/a/span}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at FlightFollowing.Polling.ToolsMenu(Polling.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToolsMenu -->
+        <test-method status="PASS" signature="VerifyLoadDataWindow()[pri:2, instance:FlightFollowing.Polling@57baeedf]" name="VerifyLoadDataWindow" duration-ms="27459" started-at="2019-09-04T12:00:11Z" finished-at="2019-09-04T12:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoadDataWindow -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FlightFollowing.Polling@57baeedf]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-04T12:00:11Z" finished-at="2019-09-04T12:00:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ToolsMenu status=FAILURE method=Polling.ToolsMenu()[pri:1, instance:FlightFollowing.Polling@57baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FlightFollowing.Polling@57baeedf]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-04T12:00:38Z" finished-at="2019-09-04T12:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoadDataWindow status=SUCCESS method=BaseClass.VerifyLoadDataWindow()[pri:2, instance:FlightFollowing.Polling@57baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="PreferenceMenu()[pri:2, instance:FlightFollowing.Polling@57baeedf]" name="PreferenceMenu" duration-ms="3290" started-at="2019-09-04T12:00:38Z" finished-at="2019-09-04T12:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreferenceMenu -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FlightFollowing.Polling@57baeedf]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-04T12:00:42Z" finished-at="2019-09-04T12:00:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PreferenceMenu status=SUCCESS method=Polling.PreferenceMenu()[pri:2, instance:FlightFollowing.Polling@57baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="VerifyLogOut()[pri:0, instance:FlightFollowing.Polling@57baeedf]" name="VerifyLogOut" is-config="true" duration-ms="6531" started-at="2019-09-04T12:00:42Z" finished-at="2019-09-04T12:00:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogOut -->
+      </class> <!-- FlightFollowing.Polling -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
